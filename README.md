@@ -2,17 +2,24 @@
 
 This starter project contains examples for working with the ArcGIS Python API.
 
-## Important: If You're Lost, Read SETUP.md First!
+## ⚠️ IMPORTANT: Known Issues
 
-**👉 [Read the Complete Setup Guide (SETUP.md)](SETUP.md)** - This explains EVERYTHING we did step-by-step!
+**👉 [READ FAILURES.md FIRST](FAILURES.md)** - Interactive maps in Jupyter Lab DO NOT WORK with this setup.
 
-The SETUP.md file contains:
-- Complete installation history
-- All dependency issues and how we fixed them
-- PATH configuration explained
-- How to run Jupyter Lab
-- Troubleshooting guide
-- Quick reference commands
+**👉 [Read SETUP.md for what works](SETUP.md)** - Everything else works perfectly from command line.
+
+### What Works
+- ✓ All 5 example Python scripts
+- ✓ Geocoding
+- ✓ Spatial analysis
+- ✓ Feature layer queries
+- ✓ Data processing
+
+### What Doesn't Work
+- ✗ Interactive map display in Jupyter notebooks
+- ✗ Widget-based visualizations
+
+**Use the Python scripts directly. Jupyter map visualization failed despite multiple fix attempts.**
 
 ## Quick Start
 
